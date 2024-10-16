@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ogola Peter - Portfolio">
+    <title>Ogola Peter's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="avatar">
+            <img src="G:\User\Portfolio\deep blue\avatar.png" alt="Ogola Peter Avatar">
+            <h1>Ogola Peter</h1>
+            <p>I'm a</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#blogs">Blogs</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Motivated third-year student pursuing a Bachelor of Science in Telecommunication and Information Engineering at the Dedan Kimathi University of Technology.Currently seeking attachment opportunity to gain real hands on experiennce to suppliment what I have learnt during my course work and put the skills thar I have gained to the test.I am also Passionate about IoT, cybersecurity, AI and R&D.Outside my education and course work, I like to write blog articles on my Medium page, generating AI prompts at the open UI community,helping others in their R&D projects and exploring different areas of intrest. </p>
+    </section>
+
+    <section id="skills" class="animate__animated animate__fadeIn">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="technical-skills">
+                <h3>Technical Skills</h3>
+                <ul>
+                    <li>Python Programming</li>
+                    <li>IoT Systems (Arduino sensors actuators)</li>
+                    <li>SQL Development - PostgreSQL,MySQL</li>
+                    <li>Circuit Design and Analysis</li>
+                    <li>Cybersecurity</li>
+                </ul>
+            </div>
+            <div class="soft-skills">
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Problem-solving</li>
+                    <li>Time management</li>
+                    <li>Team collaboration</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <ul>
+            <li>Built a Home Automation System during the Internal attachment using Arduino.</li>
+            <li>Electrical design and installations at the internal university attachment.</li>
+        </ul>
+    </section>
+    
+     <section id="projects" data-aos="zoom-in">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Home Automation System</h3>
+                <p>A smart home system using Arduino, PIR sensors, LM35 temperature sensors, and an LCD display. This project integrates IoT technologies for enhanced automation and energy management.</p>
+            </div>
+            <div class="project">
+                <h3>IoT-based Supply Chain App</h3>
+                <p>A IoT-based application to streamline medical supply chain management, focusing on transparency and efficiency using IoT system.The project is build based on some of the following technologies Using AWS IoT, Firebase, MQTT, REST API Calls.</p>
+            </div>
+            <div class="project">
+                <h3>Passsword Generator</h3>
+                <p>Build a Passsword generator application that generates a strong  random user password.Motivation behind the project  is to help users to generate strong passwords,avoid using same password across different platform and minimise the risk of data breach. The project is build using python.</p>
+            </div>
+        </div>
+    </section>
+
+     <section id="certifications" class="animate__animated animate__fadeIn">
+        <h2>Certifications</h2>
+        <ul>
+            <li>AWS Networking basics – Simplelearn.com</li>
+            <li>Introduction to IoT – Simplelearn.com</li>
+            <li>Ethical Hacking 101 – Simplelearn.com</li>
+            <li>Introduction to Cyber Security – Great Learning.com</li>
+            <li>CCNA 200-301 Network Fundamentals – Simplelearn.com</li>
+        </ul>
+    </section>
+
+    <!-- Blogs Section with Blog Pictures -->
+<section id="blogs" class="animate__animated animate__fadeIn">
+    <h2 class="text-2xl font-bold text-Dark Sapphire">Blogs</h2>
+    <div class="blog-item mt-4 flex items-center justify-center space-x-4">
+        <!-- Blog image -->
+        <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*QcsRXMdqQW1nrmOf8C7PfQ.jpeg" alt="Blog 1 Image" class="w-24 h-24 object-cover rounded-lg">
+        <!-- Blog content -->
+        <div>
+            <h3 class="text-xl font-bold text-Dark Sapphire">
+                <a href="https://medium.com/@ayienga.peter/understanding-man-in-the-middle-attacks-a-comprehensive-guide-01ddbc76b2a9" target="_blank">Understanding Man-In-The-Middle Attacks</a>
+            </h3>
+            <p class="text-Dark Sapphire">In an age where digital communication and online transactions dominate our lives, ensuring the security of our data has never been more crucial. Among various cyber threats, the Man-in-the-Middle (MitM) attack stands out due to its deceptive nature and potential for significant damage. This article aims to provide a thorough understanding of MitM attacks, their methods, impacts, and prevention strategies.</p>
+        </div>
+    </div>
+
+    <div class="blog-item mt-4 flex items-center justify-center space-x-4">
+        <!-- Blog image -->
+        <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*yxnzUFemDueLCwhl6zuqxg.jpeg" alt="Blog 2 Image" class="w-24 h-24 object-cover rounded-lg">
+        <!-- Blog content -->
+        <div>
+            <h3 class="text-xl font-bold text-Dark Sapphire">
+                <a href="https://medium.com/@ayienga.peter/iron-dome-the-pinnacle-of-modern-missle-defence-4c318b6d322d" target="_blank">Iron Dome: The Pinnacle of Modern Missile Defence</a>
+            </h3>
+            <p class="text-beige">In today’s volatile geopolitical landscape, missile defense systems have become crucial for ensuring national security, especially for nations facing constant threats. One of the most prominent systems in the world is Israel’s Iron Dome, a highly advanced and effective missile defense technology. Developed by Rafael Advanced Defense Systems in collaboration with Israel Aerospace Industries (IAI), the Iron Dome has become synonymous with missile interception and defense excellence. Since its deployment in 2011, it has played a key role in protecting Israel from missile and rocket attacks, particularly from short-range threats.</p>
+        </div>
+    </div>
+
+    <div class="blog-item mt-4 flex items-center justify-center space-x-4">
+        <!-- Blog image -->
+        <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*tRirCPhjHHLrgBa4KnjhcQ.jpeg" alt="Blog 3 Image" class="w-24 h-24 object-cover rounded-lg">
+        <!-- Blog content -->
+        <div>
+            <h3 class="text-xl font-bold text-Dark Sapphire">
+                <a href="https://medium.com/@ayienga.peter/the-wewo-church-a-heavenly-sanctuary-kissed-by-the-clouds-in-kenya-bfae21334b08" target="_blank">The Wewo Church: A Heavenly Sanctuary</a>
+            </h3>
+            <p class="text-Dark Sapphire">Nestled amidst the awe-inspiring vistas of Elgeyo Marakwet County, Kenya, lies a sanctuary that transcends the ordinary — the Wewo Catholic Church, also known as the “Church in the Sky.” This architectural gem, perched precariously on the edge of a cliff, offers a breathtaking panorama that seems to melt seamlessly into the heavens.</p>
+        </div>
+    </div>
+      <!-- Read More Blogs button -->
+        <a href="https://medium.com/@ayienga.peter" class="read-more-btn">Read More Blogs</a>
+</div>
+  </section>
+
+    <section id="resume" class="animate__animated animate__bounceIn">
+        <h2>Download My Resume</h2>
+        <a href="G:\User\Portfolio\deep blue\RESUME.pdf" download class="download-btn">Download Resume (PDF)</a>
+    </section>
+
+    <section id="contact" class="animate__animated animate__fadeInUp">
+        <h2>Contact</h2>
+        <div class="contact-icons">
+            <a href="https://www.linkedin.com/in/peterogola-903b78252" target="_blank">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://wa.me/0114477871" target="_blank">
+                <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+            <a href="https://github.com/Ogola720" target="_blank">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ogola Peter. All rights reserved.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
