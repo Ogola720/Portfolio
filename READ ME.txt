@@ -1,0 +1,56 @@
+ My Portfolio
+
+Welcome to my portfolio repository! This project showcases my work, skills, and projects as a [Telecommunication and Information Engineering](https://www.dkut.ac.ke) student with a passion for IoT, cybersecurity, and software development.
+
+Table of Contents
+
+- About
+- Features
+- Technologies Used
+- Getting Started
+- Contact
+
+   About
+
+This portfolio was designed to present my academic projects, blog posts, certificates, and other relevant achievements. It serves as both a personal website and a professional hub for showcasing my skills and experience in Telecommunication and Information Engineering, IoT, cybersecurity, and research & development.
+
+  Features
+
+- Responsive Design: Works on desktop and mobile devices.
+- Projects Section: Display of key projects in engineering, IoT, and cybersecurity.
+- Blog Section: Collection of articles written about various topics (AI, technology, natural wonders, etc.).
+- Certificates Display: View my professional certifications in either PNG or PDF format(coming soon).
+
+  Technologies Used
+
+- HTML5: For structuring the content.
+- CSS3: For styling and layout design (including custom light/dark mode).
+- JavaScript: For interactivity and functionality (like the dark mode toggle).
+- GitHub Pages: For deployment and hosting.
+
+ Getting Started
+
+To view the portfolio locally on your machine:
+
+1. Clone the repository:
+   git bash
+   git clone https://github.com/Ogola720/portfolio.git
+   
+2. Navigate to the directory:
+   
+   cd portfolio
+   
+3. Open the "index.html" file in your browser to view the portfolio.
+
+Alternatively, you can view the live site on [GitHub Pages](https://Ogola720.github.io/portfolio).
+
+
+
+
+  Contact
+
+Feel free to get in touch with me for any collaboration or project opportunities:
+
+- Email: ayienga.peter@gmail.com
+- LinkedIn: https://medium.eom/@ayienga.peter
+- GitHub: https://github.com/Ogola720
